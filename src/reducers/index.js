@@ -5,6 +5,7 @@ const reminder = (action) => {
         id : Math.random()
     }
 }
+
 const reminders = (state = [],action) => {
     let reminders = null;
     switch (action.type) {
